@@ -1,0 +1,203 @@
+@charset "UFT-8";
+
+:root{
+
+    --cor01:#0D1C26;
+    --cor02:#3E4F59;
+    --cor03:#A3B2BF;
+    --cor04:#6D7E8C;
+    --cor05:#D0D7D9;
+
+
+    --font-destaque: "Bebas Neue", sans-serif;
+    --font-texto: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor03));
+    font-family: var(--font-destaque);
+
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor05));
+    min-height: 150px;
+    padding-top: 40px;
+}
+h1{
+    font-family: var(--font-destaque);
+    font-size: 4em;
+    font-weight: normal;
+    margin-bottom: 12px;
+    text-align: center;
+    text-shadow: 2px 2px 0px white;
+    color: var(--cor01);
+    
+}
+header > h1{
+    font-family: var(--font-destaque);
+    font-size: 3em;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 0px white;
+    color: var(--cor01);
+}
+header p{
+    color: var(--cor01);
+    font-family: var(--font-destaque);
+    font-size:  2em;
+    text-align: center;
+    font-weight: normal;
+    text-shadow: 2px 2px 0px white;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--font-texto);
+    font-size: 2.5vw;
+}
+section > p{
+    font-family: var(--font-destaque);
+    padding: 3em;
+}
+section.normal{
+    background-image: linear-gradient(to bottom, var(--cor02),);
+    color: white;
+}
+section.normal > p{
+    color: black;
+    text-align: center;
+    text-align: right, center;
+    font-weight: bold;
+}
+section.imagem{
+    background-color: gray;
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.377);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p{
+    background-color: transparent;
+    color: white;
+    text-align: right, bottom;
+    font-weight: bold;
+}
+section#img01{
+    background-image: url(../site/imagens/Veigh2-RIR-CreditoAlissonGabriel-e1726768291794.webp);
+    background-position: center, center;
+}
+section#img02{
+    background-image: url(../site/imagens/imagem02.png);
+    background-position: center, center;
+}
+section#img03{
+    background-image: url(../site/imagens/images.03jfif.jfif);
+    background-position: center, center;
+}
+section#img04{
+    background-image: url(../site/imagens/design-sem-nome-2024-05-09t123633.463.avif);
+}
+section#imgwork{
+    background-image: url(../site/imagens/veighwork.jpg);
+    background-position: top, center;
+}
+nav a{
+    color: var(--cor01);
+    padding: 10px;
+    text-decoration: none;
+    background-color: var(--cor01);
+    color: var(--cor05);
+    border-radius: 20px;
+    transition-duration: 1s;
+    font-weight: bold;
+}
+nav a:hover{
+    background-color: var(--cor03);
+    color: var(--cor05);
+}
+article h1{
+    font-family: var(--font-destaque);
+}
+article p{
+    font-family: var(--font-texto);
+    text-align: justify;
+    text-indent: 16px;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 2em;
+}
+article h2{ 
+    font-family: var(--font-destaque); 
+    text-align: justify;
+    background-image: linear-gradient(to right, var(--cor04), var(--cor05), transparent);
+    border-radius: 20px;
+    text-indent: 20px;
+    text-shadow: 2px 2px 0px var(--cor05);
+}
+.musica{
+    color: black;
+    font-family: var(--font-texto);
+    text-indent: 16px;
+    text-align: justify;
+    font-size: 16px;
+    font-style: normal;
+}
+p > a{
+    background-color: var(--cor01);
+    color: var(--cor05);
+    padding: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 16px;
+}
+p a:hover{
+    background-color: var(--cor04);
+    text-decoration: none;
+    transition-duration:1s;
+}
+.list{
+    background-image: linear-gradient(to bottom, var(--cor04), var(--cor05));
+    border-radius: 20px;
+    color: var(--cor05);
+    font-size: 17px;
+    text-align: justify;
+}
+h3{
+    background-color: var(--cor01);
+    color:white;
+    padding: 10px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: normal;
+    font-family: var(--font-destaque);
+    box-shadow: 3px 3px 8px black;
+}
+.lista{
+    background-image: linear-gradient(to bottom, var(--cor05), var(--cor03), var(--cor04));
+    padding: 10px;
+    margin: 10px -10px -10px -15px;
+    border-radius: 18px;
+    box-shadow: 3px 3px 8px black;
+}
+main > ul{
+    columns: 2;
+}
+footer{
+    background-color: black;
+}
+footer > p{
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+footer > a{
+    color: white;
+    text-decoration: underline;
+}
