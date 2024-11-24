@@ -87,7 +87,7 @@ section.imagem > p{
     font-weight: bold;
 }
 section#img01{
-    background-image: url(../Projeto-Veigh/imagens/imagem02.png]);
+    background-image: url(../Projeto-Veigh/imagens/imagem02.png);
     background-position: center, center;
 }
 section#img02{
